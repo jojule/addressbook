@@ -23,11 +23,16 @@ import javax.servlet.annotation.WebServlet;
 @Theme("valo")
 public class AddressbookUI extends UI {
 
-	/* Hundreds of widgets.
-	 * Vaadin's user interface components are just Java objects that encapsulate
-	 * and handle cross-browser support and client-server communication. The
-	 * default Vaadin components are in the com.vaadin.ui package and there
-	 * are over 500 more in vaadin.com/directory.
+    
+    
+    
+    
+    
+    /* Hundreds of widgets.
+     * Vaadin's user interface components are just Java objects that encapsulate
+     * and handle cross-browser support and client-server communication. The
+     * default Vaadin components are in the com.vaadin.ui package and there
+     * are over 500 more in vaadin.com/directory.
      */
 
     TextField filter = new TextField();
@@ -56,6 +61,8 @@ public class AddressbookUI extends UI {
     }
 
     private void configureComponents() {
+        
+       
          /* Synchronous event handling.
          *
          * Receive user interaction events on the server-side. This allows you
@@ -126,6 +133,10 @@ public class AddressbookUI extends UI {
         contactForm.setVisible(false);
     }
 
+    
+    
+    
+    
     /*  Deployed as a Servlet or Portlet.
      *
      *  You can specify additional servlet parameters like the URI and UI
